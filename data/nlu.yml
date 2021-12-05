@@ -89,6 +89,13 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
 - intent: support
   examples: |
     - Hey can u help me
+
+- intent: marek
+  examples: |
+    - What does Marek not have?
+    - What is Marek missing?
+    - Marek
