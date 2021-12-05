@@ -1,4 +1,4 @@
-version: "3.0"
+version: "2.0"
 
 nlu:
 - intent: greet
@@ -94,6 +94,8 @@ nlu:
     - What does Marek not have?
     - What is Marek missing?
     - Marek
+    - Marek Valach
+    - what Marek doesn't have
 - intent: map
   examples: |
     - Where can i find campus map?
@@ -105,6 +107,7 @@ nlu:
     - I am lost
     - I can not find where I am supposed to go
     - Where do I go?
+    - map
 - intent: emergency
   examples: |
     - Emergency services
@@ -112,7 +115,8 @@ nlu:
     - Emergency numbers
     - I need a doctor
     - School doctor
-    - What do I do in emergency? 
+    - What do I do in emergency?
+    - emergency
 - intent: counselling
   examples: |
     - Counselling for foreign students
@@ -123,6 +127,8 @@ nlu:
     - Schedule counselling
     - Help me get counselling
     - Psychological counselling
+    - psychology
+    - I need help
 - intent: covid
   examples: |
     - covid
@@ -131,19 +137,21 @@ nlu:
     - Teste centres
     - Vaccination
     - I want to get tested
-    - Where can I get tested? 
+    - Where can I get tested?
     - I was tested positive
     - Current covid measures
     - covid rules
+    - restrictions
 - intent: transport
   examples: |
     - Prague transport card
     - How do I get transport card
     - Transport Prague
-    - How do I get around Prague? 
+    - How do I get around Prague?
     - litacka
     - Transport pricing
     - How do I get litacka card?
+    - PID
 - intent: id_card
   examples: |
     - id card
@@ -154,16 +162,16 @@ nlu:
     - Where can I get my id card
     - ISIC
     - Can i order my id card online?
-    - What is the process of ordering id card? 
+    - What is the process of ordering id card?
 - intent: canteens
   examples: |
     - School canteen
     - Where do I find school canteens?
-    - Does vse have school canteens? 
+    - Does vse have school canteens?
     - food
     - I am hungry.
     - I want to eat.
-    - Where can i eat? 
+    - Where can i eat?
     - Eating at school.
 - intent: housing
   examples: |
@@ -184,13 +192,13 @@ nlu:
     - Health insurance as foreigner
     - Helth insurance
     - How does health insurance work?
-    - Do i need to get insured? 
+    - Do i need to get insured?
 - intent: visa
   examples: |
     - visa
     - Do i need to get visa?
     - Do i need visa?
-    - Where do I get visa? 
+    - Where do I get visa?
     - I want to get visa
     - Visa application
     - travel documents
@@ -199,18 +207,18 @@ nlu:
 - intent: arrival
   examples: |
     - I just arrived to czech republic
-    - What do I do after arriving? 
+    - What do I do after arriving?
     - After arrival obligations
-    - What are obligation after I arrived? 
-    - Do i need to do something before i get to Czech republic? 
+    - What are obligation after I arrived?
+    - Do i need to do something before i get to Czech republic?
     - After arrival necessities.
 - intent: sport_courses
   examples: |
     - Sport at vse
     - Sport at school
-    - Are there any sport courses? 
+    - Are there any sport courses?
     - I want to do sport
-    - Where do I sign up for sport courses? 
+    - Where do I sign up for sport courses?
     - List of sport courses
     - Sport clasess
     - How do i sign up for sport class?
@@ -222,14 +230,14 @@ nlu:
     - Can i get an internship?
     - How do I get an internship?
     - Internship eda-mos
-    - What are my internship options? 
-    - internships at school 
+    - What are my internship options?
+    - internships at school
 - intent: exchange
   examples: |
     - I want to study abroad.
     - student exchange
     - Can i study abroad?
-    - What are my options for studying abroad? 
+    - What are my options for studying abroad?
     - study abroad
     - studying abroad
     - studying international
@@ -251,10 +259,11 @@ nlu:
     - Whre can I find information on master thesis?
 - intent: insis_handbook
   examples: |
-    - Does this school have handbooks? 
+    - Does this school have handbooks?
     - hanbook
     - handbooks
     - Where do I find student handbook?
+    - how to navigate in InSIS
 - intent: insis_login
   examples: |
     - insis login
@@ -268,7 +277,8 @@ nlu:
   examples: |
     - How do I pay fees?
     - How do i pay tution fees?
-    - Where do I pay school fees? 
+    - Where do I pay school fees?
+    - how fees
 - intent: fees
   examples: |
     - school fees
@@ -327,19 +337,19 @@ nlu:
     - How do I get into bachelors?
     - entrance exams for bachelor
     - bachelor program entrance exams
-    - Are there any bachelor entrance exams? 
+    - Are there any bachelor entrance exams?
     - bachelor admission process
     - bachelor entrance exam
     - bachelors exams
-    - How do I get into bachelors program? 
+    - How do I get into bachelors program?
 - intent: bachelor_studies
   examples: |
     - Bachelors
     - bachelor program
     - bachelor study plan
-    - What are bachelor study options? 
+    - What are bachelor study options?
     - Can i study bachelor program?
-    - Are there any bachelors programs? 
+    - Are there any bachelors programs?
     - bc
 
 ## SMALL TALK START

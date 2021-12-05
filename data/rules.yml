@@ -1,6 +1,11 @@
-version: "3.0"
+version: "2.0"
 
 rules:
+# SAD EMOTES ONLY
+- rule: Marek :(
+  steps:
+    - intent: marek
+    - action: utter_marek
 
 # FALLBACK
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
