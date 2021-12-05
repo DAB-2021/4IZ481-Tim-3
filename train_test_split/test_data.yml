@@ -1,0 +1,128 @@
+version: "3.0"
+nlu:
+- intent: marek
+  examples: |
+    - What is Marek missing?
+- intent: fees_how_pay
+  examples: |
+    - How do I pay fees?
+- intent: bot_challenge
+  examples: |
+    - are you a human?
+- intent: support
+  examples: |
+    - help me
+- intent: partner_unis
+  examples: |
+    - Universities partenered with school
+- intent: insis_handbook
+  examples: |
+    - hanbook
+- intent: theses
+  examples: |
+    - I need help with my thesis
+- intent: master_entrance
+  examples: |
+    - master studies entrance
+- intent: affirm
+  examples: |
+    - indeed
+- intent: emergency
+  examples: |
+    - Emergency services
+- intent: insurance
+  examples: |
+    - Health insurance
+- intent: arrival
+  examples: |
+    - After arrival necessities.
+- intent: internship
+  examples: |
+    - How do I get an internship?
+- intent: fees
+  examples: |
+    - fees
+- intent: deny
+  examples: |
+    - never
+- intent: transport
+  examples: |
+    - How do I get litacka card?
+    - How do I get around Prague?
+- intent: insis_login
+  examples: |
+    - insis
+- intent: phd_admissions
+  examples: |
+    - How do i get into phd?
+    - phd date of exam
+- intent: master_studies
+  examples: |
+    - ing
+- intent: bachelor_studies
+  examples: |
+    - Bachelors
+- intent: counselling
+  examples: |
+    - Psychological counselling
+    - Help me get counselling
+- intent: canteens
+  examples: |
+    - Where do I find school canteens?
+    - Eating at school.
+- intent: phd_studies
+  examples: |
+    - phd study programs
+- intent: master_admissions
+  examples: |
+    - How do i get into master program?
+    - masters exam
+- intent: bachelors_admissions
+  examples: |
+    - bachelor program entrance exams
+- intent: map
+  examples: |
+    - I can not find where I am supposed to go
+    - Campus map
+- intent: id_card
+  examples: |
+    - How do I get ID_card
+    - ID card
+- intent: visa
+  examples: |
+    - residence permit
+    - Do i need to get visa?
+- intent: goodbye
+  examples: |
+    - goodbye
+    - bye
+- intent: covid
+  examples: |
+    - covid-19 information
+    - Current covid measures
+- intent: housing
+  examples: |
+    - How do I apply for dormitory?
+    - School dormitory
+- intent: sport_courses
+  examples: |
+    - How do i sign up for sport class?
+    - I want to do sport
+- intent: exchange
+  examples: |
+    - studying abroad
+    - student exchange
+- intent: greet
+  examples: |
+    - good afternoon
+    - hello there
+- intent: mood_great
+  examples: |
+    - I am feeling very good
+    - great
+    - so so perfect
+- intent: mood_unhappy
+  examples: |
+    - extremly sad
+    - my day was horrible
+    - I am sad

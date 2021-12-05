@@ -1,0 +1,288 @@
+version: "3.0"
+nlu:
+- intent: marek
+  examples: |
+    - Marek
+    - What does Marek not have?
+- intent: fees_how_pay
+  examples: |
+    - Where do I pay school fees?
+    - How do i pay tution fees?
+- intent: bot_challenge
+  examples: |
+    - am I talking to a human?
+    - am I talking to a bot?
+    - are you a bot?
+- intent: support
+  examples: |
+    - help
+    - I need your help
+    - Hey can u help me?
+- intent: partner_unis
+  examples: |
+    - What universities are partnered with vse?
+    - Partnered universities
+    - Partner universities
+- intent: insis_handbook
+  examples: |
+    - handbooks
+    - Does this school have handbooks?
+    - Where do I find student handbook?
+- intent: theses
+  examples: |
+    - Whre can I find information on master thesis?
+    - Master Thesis
+    - How do I write master thesis?
+    - thesis
+- intent: master_entrance
+  examples: |
+    - Masters conditions
+    - What do i need to fulfiil to study masters?
+    - How do i get into master program?
+    - How do i get into masters?
+- intent: affirm
+  examples: |
+    - of course
+    - that sounds good
+    - yes
+    - y
+    - correct
+- intent: emergency
+  examples: |
+    - What do I do in emergency?
+    - What are emergency numbers in Czechia?
+    - School doctor
+    - I need a doctor
+    - Emergency numbers
+- intent: insurance
+  examples: |
+    - How does health insurance work?
+    - Health insurance as foreigner
+    - school insurance
+    - Helth insurance
+    - Do i need to get insured?
+- intent: arrival
+  examples: |
+    - I just arrived to czech republic
+    - Do i need to do something before i get to Czech republic?
+    - What are obligation after I arrived?
+    - What do I do after arriving?
+    - After arrival obligations
+- intent: internship
+  examples: |
+    - What are my internship options?
+    - Internships
+    - internships at school
+    - Internship eda-mos
+    - Can i get an internship?
+- intent: fees
+  examples: |
+    - Are the tuition fees?
+    - fee
+    - Are there any fees I need to pay?
+    - Fees and scholarships
+    - school fees
+- intent: deny
+  examples: |
+    - not really
+    - n
+    - I don't think so
+    - don't like that
+    - no way
+    - no
+- intent: transport
+  examples: |
+    - Transport Prague
+    - How do I get transport card
+    - Transport pricing
+    - Prague transport card
+    - litacka
+- intent: insis_login
+  examples: |
+    - insis login
+    - How do i login to insis?
+    - I can not login into insis
+    - insis login issue
+    - What the fuck is insis?
+    - insis problem
+- intent: phd_admissions
+  examples: |
+    - PHD entrance exam
+    - phd admission
+    - admission to phd
+    - phd exam
+    - PHD admission procedure
+- intent: master_studies
+  examples: |
+    - mgr
+    - masters program
+    - Are there any masters study options?
+    - master study plan
+    - masters study programs
+    - I want to study master program
+- intent: bachelor_studies
+  examples: |
+    - bachelor program
+    - bachelor study plan
+    - Can i study bachelor program?
+    - bc
+    - What are bachelor study options?
+    - Are there any bachelors programs?
+- intent: counselling
+  examples: |
+    - Schedule counselling
+    - Counselling for foreign students
+    - I need counselling
+    - Counselling opening times
+    - Where do I get counselling?
+    - Counselling hours
+- intent: canteens
+  examples: |
+    - School canteen
+    - I am hungry.
+    - food
+    - Where can i eat?
+    - Does vse have school canteens?
+    - I want to eat.
+- intent: phd_studies
+  examples: |
+    - Is there phd study option?
+    - Can I study phd at this school?
+    - phd study plan
+    - I want to study phd
+    - Doctoral study
+    - phd
+    - DOctoral studies
+- intent: master_admissions
+  examples: |
+    - master program entrance exam
+    - masters date of exam
+    - admission to master program
+    - Master admission procedure
+    - masters admission
+    - How do i get into masters?
+- intent: bachelors_admissions
+  examples: |
+    - bachelor entrance exam
+    - How do I get into bachelors?
+    - bachelor admission process
+    - How do I get into bachelors program?
+    - entrance exams for bachelor
+    - Are there any bachelor entrance exams?
+    - bachelors exams
+- intent: map
+  examples: |
+    - Italska building map
+    - New building map
+    - I am lost
+    - Where can i find campus map?
+    - Where do I go?
+    - Old building map
+    - Rajska building map
+- intent: id_card
+  examples: |
+    - Where can I get my id card
+    - id_card
+    - What is the process of ordering id card?
+    - ID_card
+    - Can i order my id card online?
+    - ISIC
+    - id card
+- intent: visa
+  examples: |
+    - Where do I get visa?
+    - Do i need visa?
+    - I want to get visa
+    - Long term visa
+    - Visa application
+    - visa
+    - travel documents
+- intent: goodbye
+  examples: |
+    - have a nice day
+    - cu
+    - cee you later
+    - see you later
+    - good by
+    - bye bye
+    - see you around
+    - good night
+- intent: covid
+  examples: |
+    - covid
+    - Where can I get tested?
+    - Vaccination
+    - covid rules
+    - I think I have covid
+    - I want to get tested
+    - Teste centres
+    - I was tested positive
+- intent: housing
+  examples: |
+    - I want to live in school dorms.
+    - Living in dormitories
+    - Housing vse
+    - Dormitory
+    - Housing pricing
+    - Where can I live?
+    - Does this school have housing options?
+    - School dorms
+- intent: sport_courses
+  examples: |
+    - Sport timetable
+    - Sport at vse
+    - Sport at school
+    - Sport clasess
+    - List of sport courses
+    - Are there any sport courses?
+    - Where do i find timetable for sports?
+    - Where do I sign up for sport courses?
+- intent: exchange
+  examples: |
+    - How do i get erasmus grant?
+    - studying international
+    - I want to study abroad.
+    - Where can I study abroad?
+    - Can i study abroad?
+    - Erasmus grant
+    - study abroad
+    - What are my options for studying abroad?
+- intent: greet
+  examples: |
+    - good morning
+    - moin
+    - hey there
+    - good evening
+    - goodevening
+    - hey
+    - hey dude
+    - goodmorning
+    - hello
+    - hi
+    - let's go
+- intent: mood_great
+  examples: |
+    - I am amazing
+    - so perfect
+    - amazing
+    - super stoked
+    - I am great
+    - extremely good
+    - I am going to save the world
+    - feeling like a king
+    - so good
+    - perfect
+    - wonderful
+- intent: mood_unhappy
+  examples: |
+    - I don't feel very well
+    - very sad
+    - unhappy
+    - sad
+    - not good
+    - I'm so sad
+    - super sad
+    - not very good
+    - so sad
+    - so saad
+    - I am disappointed

@@ -1,30 +1,262 @@
-version: "3.0"
+version: "2.0"
 
 stories:
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+# - story: bachelor studies programs
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: bachelor_studies
+#   - action: utter_bachelor_options
+#   - intent: bachelors_programs
+#   - action: utter_bachelors_programs
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+# - story: bachelor studies admissions
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: bachelor_studies
+#   - action: utter_bachelor_options
+#   - intent: bachelors_admissions
+#   - action: utter_bachelors_admissions
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+# - story: master studies programs
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: master_studies
+#   - action: utter_master_options
+#   - intent: master_programs
+#   - action: utter_master_programs
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: master studies admissions
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: master_studies
+#   - action: utter_master_options
+#   - intent: master_admissions
+#   - action: utter_master_admissions
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: master studies Entrance requirements
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: master_studies
+#   - action: utter_master_options
+#   - intent: master_entrance
+#   - action: utter_master_entrance
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: phd studies programs
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: phd_studies
+#   - action: utter_phd_options
+#   - intent: phd_programs
+#   - action: utter_phd_programs
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: phd studies admissions
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: phd_studies
+#   - action: utter_phd_options
+#   - intent: phd_admissions
+#   - action: utter_phd_admissions
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: fees
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: fees
+#   - action: utter_fees
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: insis
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: insis_login
+#   - action: utter_insis_login
+#   - intent: insis_handbook
+#   - action: utter_insis_handbook
+#   - intent: insis_register_course
+#   - action: utter_insis_register_course
+#   - intent: insis_submit_hw
+#   - action: utter_insis_submit_hw
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: theses
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: theses
+#   - action: utter_theses
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: exchange
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: partner_unis
+#   - action: utter_partner_unis
+#   - intent: exchange
+#   - action: utter_exchange
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: internship
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: internship
+#   - action: utter_internship
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: sport courses
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: sport_courses
+#   - action: utter_sport_courses
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: living in the czech republic
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: arrival
+#   - action: utter_arrival
+#   - intent: visa
+#   - action: utter_visa
+#   - intent: insurance
+#   - action: utter_insurance
+#   - intent: housing
+#   - action: utter_housing
+#   - intent: canteens
+#   - action: utter_canteens
+#   - intent: id_card
+#   - action: utter_id_card
+#   - action: carry_on
+#   - intent: deny
+
+# - story: housing
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: housing
+#   - action: utter_housing
+#   - action: carry_on
+#   - intent: deny
+
+# - story: canteens
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: canteens
+#   - action: utter_canteens
+#   - action: carry_on
+#   - intent: deny
+
+# - story: transport
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: transport
+#   - action: utter_transport
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
+
+# - story: covid
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: covid
+#   - action: utter_covid
+#   - action: carry_on
+#   - intent: deny
+
+# - story: id_card
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: id_card
+#   - action: utter_id_card
+#   - action: carry_on
+#   - intent: deny
+
+# - story: help
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: counselling
+#   - action: utter_ counselling
+#   - intent: emergency
+#   - action: utter_ emergency
+#   - action: carry_on
+#   - intent: deny
+
+# - story: joke
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: joke
+#   - action: utter_joke
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
