@@ -1,0 +1,50 @@
+[
+  {
+    "text": "not good",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.03646833822131157
+    }
+  },
+  {
+    "text": "master studies entrance",
+    "intent": "master_entrance",
+    "intent_prediction": {
+      "name": "master_admissions",
+      "confidence": 0.1361769437789917
+    }
+  },
+  {
+    "text": "How do i get into masters?",
+    "intent": "master_entrance",
+    "intent_prediction": {
+      "name": "master_admissions",
+      "confidence": 0.10486391186714172
+    }
+  },
+  {
+    "text": "How do i get into master program?",
+    "intent": "master_entrance",
+    "intent_prediction": {
+      "name": "master_admissions",
+      "confidence": 0.11889687180519104
+    }
+  },
+  {
+    "text": "I want to study master program",
+    "intent": "master_studies",
+    "intent_prediction": {
+      "name": "master_admissions",
+      "confidence": 0.09931080043315887
+    }
+  },
+  {
+    "text": "masters program",
+    "intent": "master_studies",
+    "intent_prediction": {
+      "name": "master_admissions",
+      "confidence": 0.13954593241214752
+    }
+  }
+]
