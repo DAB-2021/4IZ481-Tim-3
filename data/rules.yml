@@ -11,3 +11,7 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
+- rule: Say 'How can I help you' anytime the user wants support
+  steps:
+    - intent: support
+    - action: utter_support
