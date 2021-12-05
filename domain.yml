@@ -1,18 +1,26 @@
 version: '3.0'
+
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-  intents:
+
+intents:
+  # Model
   - greet
   - goodbye
-  - affirm
   - deny
+  - affirm
   - mood_great
   - mood_unhappy
   - bot_challenge
-
-  # Model
+  - bachelors_programs
+  - support
+  - marek
   - bachelor_studies
+  - master_programs
+  - phd_programs
+  - insis_register_course
+  - insis_submit_hw
   - bachelors_admissions
   - master_studies
   - master_admissions
@@ -128,26 +136,50 @@ session_config:
   - smalltalk_user_will_be_back
 
 responses:
-  utter_greet:
-  - text: Hey! How are you?
-  utter_cheer_up:
-  - image: https://i.imgur.com/nGF1K8f.jpg
-    text: 'Here is something to cheer you up:'
-  utter_did_that_help:
-  - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
-  utter_goodbye:
-  - text: Bye
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
 
 # Model
+
+  utter_greet:
+  - text: "Hello, I’m virtual assistant Jirka from FIS!"
+
+  offer_help:
+  - text: "How can I help you?"
+
+  carry_on:
+  - text: "Do you need help wih anything else?"
+
+  utter_goodbye:
+  - text: "Bye!"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
   utter_bachelor_options:
     - text: "You can choose from 5 bachelor programmes on our faculty, but all of them are being taught in Czech language. You can find more information here: https://fis.vse.cz/bakalarske-studium/bakalarske-programy/"
 
   utter_bachelors_admissions:
     - text: "More information about bachelor studies admissions can be found here (in Czech): https://fis.vse.cz/bakalarske-studium/prijimaci-rizeni/"
+
+  utter_bachelors_programs:
+    - text: "Bachelors Admissions LINK TODO 1"
+
+  utter_master_programs:
+    - text: "Bachelors Admissions LINK TODO 2"
+
+  utter_phd_programs:
+    - text: "Bachelors Admissions LINK TODO 3"
+
+  utter_insis_register_course:
+    - text: "Bachelors Admissions LINK TODO 4"
+
+  utter_insis_submit_hw:
+    - text: "Bachelors Admissions LINK TODO 5"
+
+  utter_ counselling:
+    - text: "Bachelors Admissions LINK TODO 6"
+
+  utter_ emergency:
+    - text: "Bachelors Admissions LINK TODO 7"
 
   utter_master_options:
       - text: "There are two master programmes available: Information Systems Management and Economic Data Analysis. Both are taught in English! You can find more information here: https://fis.vse.cz/english/about/about-the-programmes/"
