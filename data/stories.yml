@@ -250,23 +250,13 @@ stories:
 #   - action: carry_on
 #   - intent: deny
 
-- story: map
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: offer_help
-  - intent: map
-  - action: utter_map
-  - action: carry_on
-  - intent: deny
-
-- story: joke
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - action: offer_help
-  - intent: joke
-  - action: utter_joke
-  - action: carry_on
-  - intent: deny
-  - action: utter_goodbye
+# - story: joke
+#   steps:
+#   - intent: greet
+#   - action: utter_greet
+#   - action: offer_help
+#   - intent: joke
+#   - action: utter_joke
+#   - action: carry_on
+#   - intent: deny
+#   - action: utter_goodbye
