@@ -131,3 +131,6 @@ dmypy.json
 # Ignore models
 cc.cs.300.bin
 cc.cs.300.bin.gz
+
+/models
+/.rasa
