@@ -12,11 +12,11 @@ body {
 }
 
 *, html {
-    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
-    --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
+    --primaryGradient: linear-gradient(93.12deg, #3D429B 0.52%, #3D429B 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #3D429B -2.14%, #3D429B 99.69%);
     --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
     --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
-    --primary: #581B98;
+    --primary: #2CA6D1;
 }
 
 /* CHATBOX
@@ -53,10 +53,12 @@ body {
 }
 
 .send__button {
-    padding: 6px;
-    background: transparent;
-    border: none;
-    outline: none;
+    padding: 10px;
+    background: #2CA6D1;
+    font-weight: bold;
+    border-radius: 20px;
+    border: 15px;
+    outline: 1px;
     cursor: pointer;
 }
 
@@ -110,9 +112,9 @@ body {
     background: var(--primaryGradient);
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 15px 20px;
+    align-items: left;
+    justify-content: left;
+    padding: 15px 15px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: var(--primaryBoxShadow);
