@@ -6,6 +6,7 @@ session_config:
 
 intents:
   # Model
+  - nlu_fallback
   - vse
   - vse/greet
   - vse/goodbye
