@@ -4,8 +4,8 @@ rules:
 # SAD EMOTES ONLY
 - rule: Marek :(
   steps:
-  - intent: marek
-  - action: utter_marek
+  - intent: vse/marek
+  - action: utter_vse/marek
 
 # FALLBACK
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
@@ -27,571 +27,571 @@ rules:
 # VSE LOGIC
 - rule: Say goodbye anytime the user says goodbye
   steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - intent: vse/goodbye
+  - action: utter_vse/goodbye
 
 - rule: Say 'I am a bot' anytime the user challenges
   steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - intent: vse/bot_challenge
+  - action: utter_vse/iamabot
 
 - rule: joke
   steps:
   - intent: joke
-  - action: utter_joke
+  - action: utter_vse/joke
 
 - rule: bachelor studies programs
   steps:
-  - intent: bachelor_studies
-  - action: utter_bachelor_options
+  - intent: vse/bachelor_studies
+  - action: utter_vse/bachelor_options
 
 - rule: bachelor studies admissions
   steps:
-  - intent: bachelors_admissions
-  - action: utter_bachelors_admissions
+  - intent: vse/bachelors_admissions
+  - action: utter_vse/bachelors_admissions
 
 - rule: master studies programs
   steps:
-  - intent: master_studies
-  - action: utter_master_options
+  - intent: vse/master_studies
+  - action: utter_vse/master_options
 
 - rule: master studies admissions
   steps:
-  - intent: master_admissions
-  - action: utter_master_admissions
+  - intent: vse/master_admissions
+  - action: utter_vse/master_admissions
 
 - rule: master studies Entrance requirements
   steps:
-  - intent: master_entrance
-  - action: utter_master_entrance
+  - intent: vse/master_entrance
+  - action: utter_vse/master_entrance
 
 - rule: phd studies programs
   steps:
-  - intent: phd_studies
-  - action: utter_phd_options
+  - intent: vse/phd_studies
+  - action: utter_vse/phd_options
 
 - rule: phd studies admissions
   steps:
-  - intent: phd_admissions
-  - action: utter_phd_admissions
+  - intent: vse/phd_admissions
+  - action: utter_vse/phd_admissions
 
 - rule: fees
   steps:
-  - intent: fees
-  - action: utter_fees
+  - intent: vse/fees
+  - action: utter_vse/fees
 
 - rule: fees how to pay
   steps:
-  - intent: fees_how_pay
-  - action: utter_fees_how_pay
+  - intent: vse/fees_how_pay
+  - action: utter_vse/fees_how_pay
 
 - rule: insis login
   steps:
-  - intent: insis_login
-  - action: utter_insis_login
+  - intent: vse/insis_login
+  - action: utter_vse/insis_login
 
 - rule: insis handbook
   steps:
-  - intent: insis_handbook
-  - action: utter_insis_handbook
+  - intent: vse/insis_handbook
+  - action: utter_vse/insis_handbook
 
 - rule: theses
   steps:
-  - intent: theses
-  - action: utter_theses
+  - intent: vse/theses
+  - action: utter_vse/theses
 
 - rule: exchange
   steps:
-  - intent: exchange
-  - action: utter_exchange
+  - intent: vse/exchange
+  - action: utter_vse/exchange
 
 - rule: partner universities
   steps:
-  - intent: partner_unis
-  - action: utter_partner_unis
+  - intent: vse/partner_unis
+  - action: utter_vse/partner_unis
 
 - rule: internship
   steps:
-  - intent: internship
-  - action: utter_internship
+  - intent: vse/internship
+  - action: utter_vse/internship
 
 - rule: sport courses
   steps:
-  - intent: sport_courses
-  - action: utter_sport_courses
+  - intent: vse/sport_courses
+  - action: utter_vse/sport_courses
 
 - rule: arrival
   steps:
-  - intent: arrival
-  - action: utter_arrival
+  - intent: vse/arrival
+  - action: utter_vse/arrival
 
 - rule: visa
   steps:
-  - intent: visa
-  - action: utter_visa
+  - intent: vse/visa
+  - action: utter_vse/visa
 
 - rule: insurance
   steps:
-  - intent: insurance
-  - action: utter_insurance
+  - intent: vse/insurance
+  - action: utter_vse/insurance
 
 - rule: housing
   steps:
-  - intent: housing
-  - action: utter_housing
+  - intent: vse/housing
+  - action: utter_vse/housing
 
 - rule: canteens
   steps:
-  - intent: canteens
-  - action: utter_canteens
+  - intent: vse/canteens
+  - action: utter_vse/canteens
 
 - rule: id card
   steps:
-  - intent: id_card
-  - action: utter_id_card
+  - intent: vse/id_card
+  - action: utter_vse/id_card
 
 - rule: transport
   steps:
-  - intent: transport
-  - action: utter_transport
+  - intent: vse/transport
+  - action: utter_vse/transport
 
 - rule: covid
   steps:
-  - intent: covid
-  - action: utter_covid
+  - intent: vse/covid
+  - action: utter_vse/covid
 
 - rule: counselling
   steps:
-  - intent: counselling
-  - action: utter_counselling
+  - intent: vse/counselling
+  - action: utter_vse/counselling
 
 - rule: emergency
   steps:
-  - intent: emergency
-  - action: utter_emergency
+  - intent: vse/emergency
+  - action: utter_vse/emergency
 
 - rule: map
   steps:
-  - intent: map
-  - action: utter_map
+  - intent: vse/map
+  - action: utter_vse/map
 
 # SMALL TALK
-- rule: path_smalltalk_agent_acquaintance
+- rule: path_chitachat/smalltalk_agent_acquaintance
   steps:
-  - intent: smalltalk_agent_acquaintance
-  - action: utter_smalltalk_agent_acquaintance
+  - intent: chitachat/smalltalk_agent_acquaintance
+  - action: utter_chitachat/smalltalk_agent_acquaintance
 
-- rule: path_smalltalk_agent_age
+- rule: path_chitachat/smalltalk_agent_age
   steps:
-  - intent: smalltalk_agent_age
-  - action: utter_smalltalk_agent_age
+  - intent: chitachat/smalltalk_agent_age
+  - action: utter_chitachat/smalltalk_agent_age
 
-- rule: path_smalltalk_agent_annoying
+- rule: path_chitachat/smalltalk_agent_annoying
   steps:
-  - intent: smalltalk_agent_annoying
-  - action: utter_smalltalk_agent_annoying
+  - intent: chitachat/smalltalk_agent_annoying
+  - action: utter_chitachat/smalltalk_agent_annoying
 
-- rule: path_smalltalk_agent_answer_my_question
+- rule: path_chitachat/smalltalk_agent_answer_my_question
   steps:
-  - intent: smalltalk_agent_answer_my_question
-  - action: utter_smalltalk_agent_answer_my_question
+  - intent: chitachat/smalltalk_agent_answer_my_question
+  - action: utter_chitachat/smalltalk_agent_answer_my_question
 
-- rule: path_smalltalk_agent_bad
+- rule: path_chitachat/smalltalk_agent_bad
   steps:
-  - intent: smalltalk_agent_bad
-  - action: utter_smalltalk_agent_bad
+  - intent: chitachat/smalltalk_agent_bad
+  - action: utter_chitachat/smalltalk_agent_bad
 
-- rule: path_smalltalk_agent_be_clever
+- rule: path_chitachat/smalltalk_agent_be_clever
   steps:
-  - intent: smalltalk_agent_be_clever
-  - action: utter_smalltalk_agent_be_clever
+  - intent: chitachat/smalltalk_agent_be_clever
+  - action: utter_chitachat/smalltalk_agent_be_clever
 
-- rule: path_smalltalk_agent_beautiful
+- rule: path_chitachat/smalltalk_agent_beautiful
   steps:
-  - intent: smalltalk_agent_beautiful
-  - action: utter_smalltalk_agent_beautiful
+  - intent: chitachat/smalltalk_agent_beautiful
+  - action: utter_chitachat/smalltalk_agent_beautiful
 
-- rule: path_smalltalk_agent_birth_date
+- rule: path_chitachat/smalltalk_agent_birth_date
   steps:
-  - intent: smalltalk_agent_birth_date
-  - action: utter_smalltalk_agent_birth_date
+  - intent: chitachat/smalltalk_agent_birth_date
+  - action: utter_chitachat/smalltalk_agent_birth_date
 
-- rule: path_smalltalk_agent_boring
+- rule: path_chitachat/smalltalk_agent_boring
   steps:
-  - intent: smalltalk_agent_boring
-  - action: utter_smalltalk_agent_boring
+  - intent: chitachat/smalltalk_agent_boring
+  - action: utter_chitachat/smalltalk_agent_boring
 
-- rule: path_smalltalk_agent_boss
+- rule: path_chitachat/smalltalk_agent_boss
   steps:
-  - intent: smalltalk_agent_boss
-  - action: utter_smalltalk_agent_boss
+  - intent: chitachat/smalltalk_agent_boss
+  - action: utter_chitachat/smalltalk_agent_boss
 
-- rule: path_smalltalk_agent_busy
+- rule: path_chitachat/smalltalk_agent_busy
   steps:
-  - intent: smalltalk_agent_busy
-  - action: utter_smalltalk_agent_busy
+  - intent: chitachat/smalltalk_agent_busy
+  - action: utter_chitachat/smalltalk_agent_busy
 
-- rule: path_smalltalk_agent_chatbot
+- rule: path_chitachat/smalltalk_agent_chatbot
   steps:
-  - intent: smalltalk_agent_chatbot
-  - action: utter_smalltalk_agent_chatbot
+  - intent: chitachat/smalltalk_agent_chatbot
+  - action: utter_chitachat/smalltalk_agent_chatbot
 
-- rule: path_smalltalk_agent_clever
+- rule: path_chitachat/smalltalk_agent_clever
   steps:
-  - intent: smalltalk_agent_clever
-  - action: utter_smalltalk_agent_clever
+  - intent: chitachat/smalltalk_agent_clever
+  - action: utter_chitachat/smalltalk_agent_clever
 
-- rule: path_smalltalk_agent_crazy
+- rule: path_chitachat/smalltalk_agent_crazy
   steps:
-  - intent: smalltalk_agent_crazy
-  - action: utter_smalltalk_agent_crazy
+  - intent: chitachat/smalltalk_agent_crazy
+  - action: utter_chitachat/smalltalk_agent_crazy
 
-- rule: path_smalltalk_agent_fired
+- rule: path_chitachat/smalltalk_agent_fired
   steps:
-  - intent: smalltalk_agent_fired
-  - action: utter_smalltalk_agent_fired
+  - intent: chitachat/smalltalk_agent_fired
+  - action: utter_chitachat/smalltalk_agent_fired
 
-- rule: path_smalltalk_agent_funny
+- rule: path_chitachat/smalltalk_agent_funny
   steps:
-  - intent: smalltalk_agent_funny
-  - action: utter_smalltalk_agent_funny
+  - intent: chitachat/smalltalk_agent_funny
+  - action: utter_chitachat/smalltalk_agent_funny
 
-- rule: path_smalltalk_agent_good
+- rule: path_chitachat/smalltalk_agent_good
   steps:
-  - intent: smalltalk_agent_good
-  - action: utter_smalltalk_agent_good
+  - intent: chitachat/smalltalk_agent_good
+  - action: utter_chitachat/smalltalk_agent_good
 
-- rule: path_smalltalk_agent_happy
+- rule: path_chitachat/smalltalk_agent_happy
   steps:
-  - intent: smalltalk_agent_happy
-  - action: utter_smalltalk_agent_happy
+  - intent: chitachat/smalltalk_agent_happy
+  - action: utter_chitachat/smalltalk_agent_happy
 
-- rule: path_smalltalk_agent_hungry
+- rule: path_chitachat/smalltalk_agent_hungry
   steps:
-  - intent: smalltalk_agent_hungry
-  - action: utter_smalltalk_agent_hungry
+  - intent: chitachat/smalltalk_agent_hungry
+  - action: utter_chitachat/smalltalk_agent_hungry
 
-- rule: path_smalltalk_agent_marry_user
+- rule: path_chitachat/smalltalk_agent_marry_user
   steps:
-  - intent: smalltalk_agent_marry_user
-  - action: utter_smalltalk_agent_marry_user
+  - intent: chitachat/smalltalk_agent_marry_user
+  - action: utter_chitachat/smalltalk_agent_marry_user
 
-- rule: path_smalltalk_agent_my_friend
+- rule: path_chitachat/smalltalk_agent_my_friend
   steps:
-  - intent: smalltalk_agent_my_friend
-  - action: utter_smalltalk_agent_my_friend
+  - intent: chitachat/smalltalk_agent_my_friend
+  - action: utter_chitachat/smalltalk_agent_my_friend
 
-- rule: path_smalltalk_agent_occupation
+- rule: path_chitachat/smalltalk_agent_occupation
   steps:
-  - intent: smalltalk_agent_occupation
-  - action: utter_smalltalk_agent_occupation
+  - intent: chitachat/smalltalk_agent_occupation
+  - action: utter_chitachat/smalltalk_agent_occupation
 
-- rule: path_smalltalk_agent_origin
+- rule: path_chitachat/smalltalk_agent_origin
   steps:
-  - intent: smalltalk_agent_origin
-  - action: utter_smalltalk_agent_origin
+  - intent: chitachat/smalltalk_agent_origin
+  - action: utter_chitachat/smalltalk_agent_origin
 
-- rule: path_smalltalk_agent_ready
+- rule: path_chitachat/smalltalk_agent_ready
   steps:
-  - intent: smalltalk_agent_ready
-  - action: utter_smalltalk_agent_ready
+  - intent: chitachat/smalltalk_agent_ready
+  - action: utter_chitachat/smalltalk_agent_ready
 
-- rule: path_smalltalk_agent_real
+- rule: path_chitachat/smalltalk_agent_real
   steps:
-  - intent: smalltalk_agent_real
-  - action: utter_smalltalk_agent_real
+  - intent: chitachat/smalltalk_agent_real
+  - action: utter_chitachat/smalltalk_agent_real
 
-- rule: path_smalltalk_agent_residence
+- rule: path_chitachat/smalltalk_agent_residence
   steps:
-  - intent: smalltalk_agent_residence
-  - action: utter_smalltalk_agent_residence
+  - intent: chitachat/smalltalk_agent_residence
+  - action: utter_chitachat/smalltalk_agent_residence
 
-- rule: path_smalltalk_agent_right
+- rule: path_chitachat/smalltalk_agent_right
   steps:
-  - intent: smalltalk_agent_right
-  - action: utter_smalltalk_agent_right
+  - intent: chitachat/smalltalk_agent_right
+  - action: utter_chitachat/smalltalk_agent_right
 
-- rule: path_smalltalk_confirmation_yes
+- rule: path_chitachat/smalltalk_confirmation_yes
   steps:
-  - intent: smalltalk_confirmation_yes
-  - action: utter_smalltalk_confirmation_yes
+  - intent: chitachat/smalltalk_confirmation_yes
+  - action: utter_chitachat/smalltalk_confirmation_yes
 
-- rule: path_smalltalk_agent_sure
+- rule: path_chitachat/smalltalk_agent_sure
   steps:
-  - intent: smalltalk_agent_sure
-  - action: utter_smalltalk_agent_sure
+  - intent: chitachat/smalltalk_agent_sure
+  - action: utter_chitachat/smalltalk_agent_sure
 
-- rule: path_smalltalk_agent_talk_to_me
+- rule: path_chitachat/smalltalk_agent_talk_to_me
   steps:
-  - intent: smalltalk_agent_talk_to_me
-  - action: utter_smalltalk_agent_talk_to_me
+  - intent: chitachat/smalltalk_agent_talk_to_me
+  - action: utter_chitachat/smalltalk_agent_talk_to_me
 
-- rule: path_smalltalk_agent_there
+- rule: path_chitachat/smalltalk_agent_there
   steps:
-  - intent: smalltalk_agent_there
-  - action: utter_smalltalk_agent_there
+  - intent: chitachat/smalltalk_agent_there
+  - action: utter_chitachat/smalltalk_agent_there
 
-- rule: path_smalltalk_appraisal_bad
+- rule: path_chitachat/smalltalk_appraisal_bad
   steps:
-  - intent: smalltalk_appraisal_bad
-  - action: utter_smalltalk_appraisal_bad
+  - intent: chitachat/smalltalk_appraisal_bad
+  - action: utter_chitachat/smalltalk_appraisal_bad
 
-- rule: path_smalltalk_appraisal_good
+- rule: path_chitachat/smalltalk_appraisal_good
   steps:
-  - intent: smalltalk_appraisal_good
-  - action: utter_smalltalk_appraisal_good
+  - intent: chitachat/smalltalk_appraisal_good
+  - action: utter_chitachat/smalltalk_appraisal_good
 
-- rule: path_smalltalk_appraisal_no_problem
+- rule: path_chitachat/smalltalk_appraisal_no_problem
   steps:
-  - intent: smalltalk_appraisal_no_problem
-  - action: utter_smalltalk_appraisal_no_problem
+  - intent: chitachat/smalltalk_appraisal_no_problem
+  - action: utter_chitachat/smalltalk_appraisal_no_problem
 
-- rule: path_smalltalk_appraisal_thank_you
+- rule: path_chitachat/smalltalk_appraisal_thank_you
   steps:
-  - intent: smalltalk_appraisal_thank_you
-  - action: utter_smalltalk_appraisal_thank_you
+  - intent: chitachat/smalltalk_appraisal_thank_you
+  - action: utter_chitachat/smalltalk_appraisal_thank_you
 
-- rule: path_smalltalk_appraisal_welcome
+- rule: path_chitachat/smalltalk_appraisal_welcome
   steps:
-  - intent: smalltalk_appraisal_welcome
-  - action: utter_smalltalk_appraisal_welcome
+  - intent: chitachat/smalltalk_appraisal_welcome
+  - action: utter_chitachat/smalltalk_appraisal_welcome
 
-- rule: path_smalltalk_appraisal_well_done
+- rule: path_chitachat/smalltalk_appraisal_well_done
   steps:
-  - intent: smalltalk_appraisal_well_done
-  - action: utter_smalltalk_appraisal_well_done
+  - intent: chitachat/smalltalk_appraisal_well_done
+  - action: utter_chitachat/smalltalk_appraisal_well_done
 
-- rule: path_smalltalk_confirmation_cancel
+- rule: path_chitachat/smalltalk_confirmation_cancel
   steps:
-  - intent: smalltalk_confirmation_cancel
-  - action: utter_smalltalk_confirmation_cancel
+  - intent: chitachat/smalltalk_confirmation_cancel
+  - action: utter_chitachat/smalltalk_confirmation_cancel
 
-- rule: path_smalltalk_confirmation_no
+- rule: path_chitachat/smalltalk_confirmation_no
   steps:
-  - intent: smalltalk_confirmation_no
-  - action: utter_smalltalk_confirmation_no
+  - intent: chitachat/smalltalk_confirmation_no
+  - action: utter_chitachat/smalltalk_confirmation_no
 
-- rule: path_smalltalk_dialog_hold_on
+- rule: path_chitachat/smalltalk_dialog_hold_on
   steps:
-  - intent: smalltalk_dialog_hold_on
-  - action: utter_smalltalk_dialog_hold_on
+  - intent: chitachat/smalltalk_dialog_hold_on
+  - action: utter_chitachat/smalltalk_dialog_hold_on
 
-- rule: path_smalltalk_dialog_hug
+- rule: path_chitachat/smalltalk_dialog_hug
   steps:
-  - intent: smalltalk_dialog_hug
-  - action: utter_smalltalk_dialog_hug
+  - intent: chitachat/smalltalk_dialog_hug
+  - action: utter_chitachat/smalltalk_dialog_hug
 
-- rule: path_smalltalk_dialog_i_do_not_care
+- rule: path_chitachat/smalltalk_dialog_i_do_not_care
   steps:
-  - intent: smalltalk_dialog_i_do_not_care
-  - action: utter_smalltalk_dialog_i_do_not_care
+  - intent: chitachat/smalltalk_dialog_i_do_not_care
+  - action: utter_chitachat/smalltalk_dialog_i_do_not_care
 
-- rule: path_smalltalk_dialog_sorry
+- rule: path_chitachat/smalltalk_dialog_sorry
   steps:
-  - intent: smalltalk_dialog_sorry
-  - action: utter_smalltalk_dialog_sorry
+  - intent: chitachat/smalltalk_dialog_sorry
+  - action: utter_chitachat/smalltalk_dialog_sorry
 
-- rule: path_smalltalk_dialog_what_do_you_mean
+- rule: path_chitachat/smalltalk_dialog_what_do_you_mean
   steps:
-  - intent: smalltalk_dialog_what_do_you_mean
-  - action: utter_smalltalk_dialog_what_do_you_mean
+  - intent: chitachat/smalltalk_dialog_what_do_you_mean
+  - action: utter_chitachat/smalltalk_dialog_what_do_you_mean
 
-- rule: path_smalltalk_dialog_wrong
+- rule: path_chitachat/smalltalk_dialog_wrong
   steps:
-  - intent: smalltalk_dialog_wrong
-  - action: utter_smalltalk_dialog_wrong
+  - intent: chitachat/smalltalk_dialog_wrong
+  - action: utter_chitachat/smalltalk_dialog_wrong
 
-- rule: path_smalltalk_emotions_ha_ha
+- rule: path_chitachat/smalltalk_emotions_ha_ha
   steps:
-  - intent: smalltalk_emotions_ha_ha
-  - action: utter_smalltalk_emotions_ha_ha
+  - intent: chitachat/smalltalk_emotions_ha_ha
+  - action: utter_chitachat/smalltalk_emotions_ha_ha
 
-- rule: path_smalltalk_emotions_wow
+- rule: path_chitachat/smalltalk_emotions_wow
   steps:
-  - intent: smalltalk_emotions_wow
-  - action: utter_smalltalk_emotions_wow
+  - intent: chitachat/smalltalk_emotions_wow
+  - action: utter_chitachat/smalltalk_emotions_wow
 
-- rule: path_smalltalk_greetings_bye
+- rule: path_chitachat/smalltalk_greetings_bye
   steps:
-  - intent: smalltalk_greetings_bye
-  - action: utter_smalltalk_greetings_bye
+  - intent: chitachat/smalltalk_greetings_bye
+  - action: utter_chitachat/smalltalk_greetings_bye
 
-- rule: path_smalltalk_greetings_goodevening
+- rule: path_chitachat/smalltalk_greetings_goodevening
   steps:
-  - intent: smalltalk_greetings_goodevening
-  - action: utter_smalltalk_greetings_goodevening
+  - intent: chitachat/smalltalk_greetings_goodevening
+  - action: utter_chitachat/smalltalk_greetings_goodevening
 
-- rule: path_smalltalk_greetings_goodmorning
+- rule: path_chitachat/smalltalk_greetings_goodmorning
   steps:
-  - intent: smalltalk_greetings_goodmorning
-  - action: utter_smalltalk_greetings_goodmorning
+  - intent: chitachat/smalltalk_greetings_goodmorning
+  - action: utter_chitachat/smalltalk_greetings_goodmorning
 
-- rule: path_smalltalk_greetings_goodnight
+- rule: path_chitachat/smalltalk_greetings_goodnight
   steps:
-  - intent: smalltalk_greetings_goodnight
-  - action: utter_smalltalk_greetings_goodnight
+  - intent: chitachat/smalltalk_greetings_goodnight
+  - action: utter_chitachat/smalltalk_greetings_goodnight
 
-- rule: path_smalltalk_greetings_hello
+- rule: path_chitachat/smalltalk_greetings_hello
   steps:
-  - intent: smalltalk_greetings_hello
-  - action: utter_smalltalk_greetings_hello
+  - intent: chitachat/smalltalk_greetings_hello
+  - action: utter_chitachat/smalltalk_greetings_hello
 
-- rule: path_smalltalk_greetings_how_are_you
+- rule: path_chitachat/smalltalk_greetings_how_are_you
   steps:
-  - intent: smalltalk_greetings_how_are_you
-  - action: utter_smalltalk_greetings_how_are_you
+  - intent: chitachat/smalltalk_greetings_how_are_you
+  - action: utter_chitachat/smalltalk_greetings_how_are_you
 
-- rule: path_smalltalk_greetings_nice_to_meet_you
+- rule: path_chitachat/smalltalk_greetings_nice_to_meet_you
   steps:
-  - intent: smalltalk_greetings_nice_to_meet_you
-  - action: utter_smalltalk_greetings_nice_to_meet_you
+  - intent: chitachat/smalltalk_greetings_nice_to_meet_you
+  - action: utter_chitachat/smalltalk_greetings_nice_to_meet_you
 
-- rule: path_smalltalk_greetings_nice_to_see_you
+- rule: path_chitachat/smalltalk_greetings_nice_to_see_you
   steps:
-  - intent: smalltalk_greetings_nice_to_see_you
-  - action: utter_smalltalk_greetings_nice_to_see_you
+  - intent: chitachat/smalltalk_greetings_nice_to_see_you
+  - action: utter_chitachat/smalltalk_greetings_nice_to_see_you
 
-- rule: path_smalltalk_greetings_nice_to_talk_to_you
+- rule: path_chitachat/smalltalk_greetings_nice_to_talk_to_you
   steps:
-  - intent: smalltalk_greetings_nice_to_talk_to_you
-  - action: utter_smalltalk_greetings_nice_to_talk_to_you
+  - intent: chitachat/smalltalk_greetings_nice_to_talk_to_you
+  - action: utter_chitachat/smalltalk_greetings_nice_to_talk_to_you
 
-- rule: path_smalltalk_greetings_whatsup
+- rule: path_chitachat/smalltalk_greetings_whatsup
   steps:
-  - intent: smalltalk_greetings_whatsup
-  - action: utter_smalltalk_greetings_whatsup
+  - intent: chitachat/smalltalk_greetings_whatsup
+  - action: utter_chitachat/smalltalk_greetings_whatsup
 
-- rule: path_smalltalk_user_angry
+- rule: path_chitachat/smalltalk_user_angry
   steps:
-  - intent: smalltalk_user_angry
-  - action: utter_smalltalk_user_angry
+  - intent: chitachat/smalltalk_user_angry
+  - action: utter_chitachat/smalltalk_user_angry
 
-- rule: path_smalltalk_user_back
+- rule: path_chitachat/smalltalk_user_back
   steps:
-  - intent: smalltalk_user_back
-  - action: utter_smalltalk_user_back
+  - intent: chitachat/smalltalk_user_back
+  - action: utter_chitachat/smalltalk_user_back
 
-- rule: path_smalltalk_user_bored
+- rule: path_chitachat/smalltalk_user_bored
   steps:
-  - intent: smalltalk_user_bored
-  - action: utter_smalltalk_user_bored
+  - intent: chitachat/smalltalk_user_bored
+  - action: utter_chitachat/smalltalk_user_bored
 
-- rule: path_smalltalk_user_busy
+- rule: path_chitachat/smalltalk_user_busy
   steps:
-  - intent: smalltalk_user_busy
-  - action: utter_smalltalk_user_busy
+  - intent: chitachat/smalltalk_user_busy
+  - action: utter_chitachat/smalltalk_user_busy
 
-- rule: path_smalltalk_user_can_not_sleep
+- rule: path_chitachat/smalltalk_user_can_not_sleep
   steps:
-  - intent: smalltalk_user_can_not_sleep
-  - action: utter_smalltalk_user_can_not_sleep
+  - intent: chitachat/smalltalk_user_can_not_sleep
+  - action: utter_chitachat/smalltalk_user_can_not_sleep
 
-- rule: path_smalltalk_user_does_not_want_to_talk
+- rule: path_chitachat/smalltalk_user_does_not_want_to_talk
   steps:
-  - intent: smalltalk_user_does_not_want_to_talk
-  - action: utter_smalltalk_user_does_not_want_to_talk
+  - intent: chitachat/smalltalk_user_does_not_want_to_talk
+  - action: utter_chitachat/smalltalk_user_does_not_want_to_talk
 
-- rule: path_smalltalk_user_excited
+- rule: path_chitachat/smalltalk_user_excited
   steps:
-  - intent: smalltalk_user_excited
-  - action: utter_smalltalk_user_excited
+  - intent: chitachat/smalltalk_user_excited
+  - action: utter_chitachat/smalltalk_user_excited
 
-- rule: path_smalltalk_user_going_to_bed
+- rule: path_chitachat/smalltalk_user_going_to_bed
   steps:
-  - intent: smalltalk_user_going_to_bed
-  - action: utter_smalltalk_user_going_to_bed
+  - intent: chitachat/smalltalk_user_going_to_bed
+  - action: utter_chitachat/smalltalk_user_going_to_bed
 
-- rule: path_smalltalk_user_good
+- rule: path_chitachat/smalltalk_user_good
   steps:
-  - intent: smalltalk_user_good
-  - action: utter_smalltalk_user_good
+  - intent: chitachat/smalltalk_user_good
+  - action: utter_chitachat/smalltalk_user_good
 
-- rule: path_smalltalk_user_happy
+- rule: path_chitachat/smalltalk_user_happy
   steps:
-  - intent: smalltalk_user_happy
-  - action: utter_smalltalk_user_happy
+  - intent: chitachat/smalltalk_user_happy
+  - action: utter_chitachat/smalltalk_user_happy
 
-- rule: path_smalltalk_user_has_birthday
+- rule: path_chitachat/smalltalk_user_has_birthday
   steps:
-  - intent: smalltalk_user_has_birthday
-  - action: utter_smalltalk_user_has_birthday
+  - intent: chitachat/smalltalk_user_has_birthday
+  - action: utter_chitachat/smalltalk_user_has_birthday
 
-- rule: path_smalltalk_user_here
+- rule: path_chitachat/smalltalk_user_here
   steps:
-  - intent: smalltalk_user_here
-  - action: utter_smalltalk_user_here
+  - intent: chitachat/smalltalk_user_here
+  - action: utter_chitachat/smalltalk_user_here
 
-- rule: path_smalltalk_user_joking
+- rule: path_chitachat/smalltalk_user_joking
   steps:
-  - intent: smalltalk_user_joking
-  - action: utter_smalltalk_user_joking
+  - intent: chitachat/smalltalk_user_joking
+  - action: utter_chitachat/smalltalk_user_joking
 
-- rule: path_smalltalk_user_likes_agent
+- rule: path_chitachat/smalltalk_user_likes_agent
   steps:
-  - intent: smalltalk_user_likes_agent
-  - action: utter_smalltalk_user_likes_agent
+  - intent: chitachat/smalltalk_user_likes_agent
+  - action: utter_chitachat/smalltalk_user_likes_agent
 
-- rule: path_smalltalk_user_lonely
+- rule: path_chitachat/smalltalk_user_lonely
   steps:
-  - intent: smalltalk_user_lonely
-  - action: utter_smalltalk_user_lonely
+  - intent: chitachat/smalltalk_user_lonely
+  - action: utter_chitachat/smalltalk_user_lonely
 
-- rule: path_smalltalk_user_looks_like
+- rule: path_chitachat/smalltalk_user_looks_like
   steps:
-  - intent: smalltalk_user_looks_like
-  - action: utter_smalltalk_user_looks_like
+  - intent: chitachat/smalltalk_user_looks_like
+  - action: utter_chitachat/smalltalk_user_looks_like
 
-- rule: path_smalltalk_user_loves_agent
+- rule: path_chitachat/smalltalk_user_loves_agent
   steps:
-  - intent: smalltalk_user_loves_agent
-  - action: utter_smalltalk_user_loves_agent
+  - intent: chitachat/smalltalk_user_loves_agent
+  - action: utter_chitachat/smalltalk_user_loves_agent
 
-- rule: path_smalltalk_user_misses_agent
+- rule: path_chitachat/smalltalk_user_misses_agent
   steps:
-  - intent: smalltalk_user_misses_agent
-  - action: utter_smalltalk_user_misses_agent
+  - intent: chitachat/smalltalk_user_misses_agent
+  - action: utter_chitachat/smalltalk_user_misses_agent
 
-- rule: path_smalltalk_user_needs_advice
+- rule: path_chitachat/smalltalk_user_needs_advice
   steps:
-  - intent: smalltalk_user_needs_advice
-  - action: utter_smalltalk_user_needs_advice
+  - intent: chitachat/smalltalk_user_needs_advice
+  - action: utter_chitachat/smalltalk_user_needs_advice
 
-- rule: path_smalltalk_user_sad
+- rule: path_chitachat/smalltalk_user_sad
   steps:
-  - intent: smalltalk_user_sad
-  - action: utter_smalltalk_user_sad
+  - intent: chitachat/smalltalk_user_sad
+  - action: utter_chitachat/smalltalk_user_sad
 
-- rule: path_smalltalk_user_sleepy
+- rule: path_chitachat/smalltalk_user_sleepy
   steps:
-  - intent: smalltalk_user_sleepy
-  - action: utter_smalltalk_user_sleepy
+  - intent: chitachat/smalltalk_user_sleepy
+  - action: utter_chitachat/smalltalk_user_sleepy
 
-- rule: path_smalltalk_user_testing_agent
+- rule: path_chitachat/smalltalk_user_testing_agent
   steps:
-  - intent: smalltalk_user_testing_agent
-  - action: utter_smalltalk_user_testing_agent
+  - intent: chitachat/smalltalk_user_testing_agent
+  - action: utter_chitachat/smalltalk_user_testing_agent
 
-- rule: path_smalltalk_user_tired
+- rule: path_chitachat/smalltalk_user_tired
   steps:
-  - intent: smalltalk_user_tired
-  - action: utter_smalltalk_user_tired
+  - intent: chitachat/smalltalk_user_tired
+  - action: utter_chitachat/smalltalk_user_tired
 
-- rule: path_smalltalk_user_waits
+- rule: path_chitachat/smalltalk_user_waits
   steps:
-  - intent: smalltalk_user_waits
-  - action: utter_smalltalk_user_waits
+  - intent: chitachat/smalltalk_user_waits
+  - action: utter_chitachat/smalltalk_user_waits
 
-- rule: path_smalltalk_user_wants_to_see_agent_again
+- rule: path_chitachat/smalltalk_user_wants_to_see_agent_again
   steps:
-  - intent: smalltalk_user_wants_to_see_agent_again
-  - action: utter_smalltalk_user_wants_to_see_agent_again
+  - intent: chitachat/smalltalk_user_wants_to_see_agent_again
+  - action: utter_chitachat/smalltalk_user_wants_to_see_agent_again
 
-- rule: path_smalltalk_user_wants_to_talk
+- rule: path_chitachat/smalltalk_user_wants_to_talk
   steps:
-  - intent: smalltalk_user_wants_to_talk
-  - action: utter_smalltalk_user_wants_to_talk
+  - intent: chitachat/smalltalk_user_wants_to_talk
+  - action: utter_chitachat/smalltalk_user_wants_to_talk
 
-- rule: path_smalltalk_user_will_be_back
+- rule: path_chitachat/smalltalk_user_will_be_back
   steps:
-  - intent: smalltalk_user_will_be_back
-  - action: utter_smalltalk_user_will_be_back
+  - intent: chitachat/smalltalk_user_will_be_back
+  - action: utter_chitachat/smalltalk_user_will_be_back
