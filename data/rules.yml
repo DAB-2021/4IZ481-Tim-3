@@ -4,8 +4,8 @@ rules:
 # SAD EMOTES ONLY
 - rule: Marek :(
   steps:
-    - intent: marek
-    - action: utter_marek
+  - intent: marek
+  - action: utter_marek
 
 # FALLBACK
 - rule: Ask the user to rephrase whenever they send a message with low NLU confidence
@@ -15,14 +15,14 @@ rules:
 
 # diving vse and chitchat
 - rule: respond to vse
-    steps:
-    - intent: vse
-    - action: utter_vse
+  steps:
+  - intent: vse
+  - action: utter_vse
 
 - rule: respond to chitchat
-    steps:
-    - intent: chitchat
-    - action: utter_chitchat
+  steps:
+  - intent: chitchat
+  - action: utter_chitchat
 
 # VSE LOGIC
 - rule: Say goodbye anytime the user says goodbye
