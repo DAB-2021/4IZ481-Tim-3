@@ -134,3 +134,4 @@ cc.cs.300.bin.gz
 
 /models
 /.rasa
+node_modules/

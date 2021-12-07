@@ -1,5 +1,6 @@
 $(document).ready(function(){
-    $(".send__button").off("click.send").on("click.send", function() {
+    $("form").submit(function(e){
+        e.preventDefault();
         var text1 = $('input').val()
         
         if (text1 === "") {
@@ -7,20 +8,21 @@ $(document).ready(function(){
         }
 
         updateChatText(text1, false)
+        $(".chatbox__messages").scrollTop($(".chatbox__messages")[0].scrollHeight);
+        $('input').val("")
         body = {message: text1}
-        console.log(body)
+
         $.ajax({
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify(body),
             url: "http://localhost:5005/webhooks/rest/webhook",
             success: function (results) {
-                let msg2 = results[0]
-                $('input').val("")
-                updateChatText(msg2.text)
+                updateChatText(results[0].text)
+                $(".chatbox__messages").scrollTop($(".chatbox__messages")[0].scrollHeight);
             }
         })
-    })
+    });
 })
 
 class Chatbox {
@@ -68,7 +70,6 @@ function updateChatText(message, name=true) {
     const chatmessage = document.querySelector('.chatbox__messages');
     chatmessage.innerHTML += html;
 }
-
 
 const chatbox = new Chatbox();
 chatbox.display();
