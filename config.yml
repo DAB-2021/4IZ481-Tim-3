@@ -19,18 +19,16 @@ pipeline:
     min_ngram: 1
     max_ngram: 4
   - name: DIETClassifier
-    epochs: 100
+    epochs: 20
   - name: EntitySynonymMapper
-
   - name: ResponseSelector
-    epochs: 100
+    epochs: 20
     retrieval_intent: vse
-
   - name: ResponseSelector
-    epochs: 100
+    epochs: 20
     retrieval_intent: chitchat
-  - name: FallbackClassifier
-    threshold: 0.075
+#  - name: FallbackClassifier
+#    threshold: 0.075
 
 policies:
   - name: MemoizationPolicy

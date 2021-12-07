@@ -1,4 +1,4 @@
-version: '2.0'
+version: '3.0'
 
 session_config:
   session_expiration_time: 60
@@ -8,6 +8,7 @@ intents:
   # Model
   - nlu_fallback
   - vse
+  - please_rephrase
   - vse/greet
   - vse/goodbye
   - vse/bachelors_studies
@@ -42,7 +43,6 @@ intents:
   - vse/emergency
   - vse/map
   - vse/joke
-  - vse/please_rephrase
   - vse/iamabot
 
   # Small talk
@@ -142,15 +142,15 @@ responses:
     - text: "Dick"
 
 # Fallback
-  utter_vse/please_rephrase:
-    - text: I'm sorry, I didn't quite understand that. Could you rephrase?
+#  utter_please_rephrase:
+#    - text: I'm sorry, I didn't quite understand that. Could you rephrase?
 
 # Model
   utter_vse/greet:
-  - text: "Hello, I’m virtual assistant Jirka from FIS!"
+  - text: Hello, I’m virtual assistant Jirka from FIS!
 
   utter_vse/goodbye:
-  - text: "Bye!"
+  - text: Bye!
 
   utter_vse/iamabot:
   - text: I am a bot, powered by KPMG.
