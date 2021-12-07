@@ -37,7 +37,7 @@ rules:
 
 - rule: joke
   steps:
-  - intent: joke
+  - intent: vse/joke
   - action: utter_vse/joke
 
 - rule: bachelor studies programs
