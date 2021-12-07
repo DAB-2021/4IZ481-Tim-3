@@ -162,87 +162,87 @@ responses:
   - text: I am a bot, powered by KPMG.
 
   vse/utter_bachelor_options:
-    - text: You can choose from 5 bachelor programmes on our faculty, but all of them are being taught in Czech language. You can find more information <a href="https://fis.vse.cz/bakalarske-studium/bakalarske-programy/">here</a>
+  - text: You can choose from 5 bachelor programmes on our faculty, but all of them are being taught in Czech language. You can find more information <a href="https://fis.vse.cz/bakalarske-studium/bakalarske-programy/">here</a>
 
   vse/utter_bachelors_admissions:
-    - text: More information about bachelor studies admissions can be found <a href="https://fis.vse.cz/bakalarske-studium/prijimaci-rizeni/">here</a> (in Czech).
+  - text: More information about bachelor studies admissions can be found <a href="https://fis.vse.cz/bakalarske-studium/prijimaci-rizeni/">here</a> (in Czech).
 
   vse/utter_master_options:
-      - text: There are two master programmes available: Information Systems Management and Economic Data Analysis. Both are taught in English! You can find more information <a href="https://fis.vse.cz/english/about/about-the-programmes/">here</a>
+  - text: There are two master programmes available. Information Systems Management and Economic Data Analysis. Both are taught in English! You can find more information <a href="https://fis.vse.cz/english/about/about-the-programmes/">here</a>
 
   vse/utter_master_admissions:
-    - text: The master admissions for the academic year 2022/23 (start in September 2022) are OPEN! Information on how to apply <a href="https://fis.vse.cz/english/admissions/">here</a>
+  - text: The master admissions for the academic year 2022/23 (start in September 2022) are OPEN! Information on how to apply <a href="https://fis.vse.cz/english/admissions/">here</a>
 
   vse/utter_master_entrance:
-    - text: Don't worry! I am sure you are meeting the entrance requirements for our master programmes. But if you're still not sure, check out requirements for our ISM programme <a href="https://fis.vse.cz/english/about/about-the-programmes/ism-new-program/">here</a> and our EDA programme <a href="https://fis.vse.cz/english/about/about-the-programmes/economic-data-analysis/">here</a>
+  - text: Don't worry! I am sure you are meeting the entrance requirements for our master programmes. But if you're still not sure, check out requirements for our ISM programme <a href="https://fis.vse.cz/english/about/about-the-programmes/ism-new-program/">here</a> and our EDA programme <a href="https://fis.vse.cz/english/about/about-the-programmes/economic-data-analysis/">here</a>
 
   vse/utter_phd_options:
-          - text: So you would like to study PhD at our university? Be my guest! Information about PhD programmes can be found <a href="https://fis.vse.cz/english/about/phd/phd-study-programmes/">here</a>
+  - text: So you would like to study PhD at our university? Be my guest! Information about PhD programmes can be found <a href="https://fis.vse.cz/english/about/phd/phd-study-programmes/">here</a>
 
   vse/utter_phd_admissions:
-        - text: Information on the PhD admission process can be found <a href="https://fis.vse.cz/english/about/phd/admission-procedure/">here</a>
+  - text: Information on the PhD admission process can be found <a href="https://fis.vse.cz/english/about/phd/admission-procedure/">here</a>
   vse/utter_fees:
-        - text: Information on tuition fees and scholarships can be found <a href="https://fis.vse.cz/english/current-students/study-issues/tuition-fee/">here</a>
+  - text: Information on tuition fees and scholarships can be found <a href="https://fis.vse.cz/english/current-students/study-issues/tuition-fee/">here</a>
 
   vse/utter_fees_how_pay:
-        - text: Information on how to pay tuition fees can be found <a href="https://fis.vse.cz/english/wp-content/uploads/sites/2/banner/6751/how_to_pay_thefee.pdf">here</a>
+  - text: Information on how to pay tuition fees can be found <a href="https://fis.vse.cz/english/wp-content/uploads/sites/2/banner/6751/how_to_pay_thefee.pdf">here</a>
 
   vse/utter_insis_login:
-        - text: You can log into the Integrated Study Information System <a href="https://insis.vse.cz/">here</a>
+  - text: You can log into the Integrated Study Information System <a href="https://insis.vse.cz/">here</a>
 
   vse/utter_insis_handbook:
-        - text: Don't know how to navigate in InSIS? Find more manuals and a handbook <a href="https://fis.vse.cz/english/current-students/study-issues/insis/">here</a>
+  - text: Don't know how to navigate in InSIS? Find more manuals and a handbook <a href="https://fis.vse.cz/english/current-students/study-issues/insis/">here</a>
 
   vse/utter_theses:
-        - text: Information on master theses can be found <a href="https://fis.vse.cz/english/current-students/study-issues/masters-thesis/">here</a>
+  - text: Information on master theses can be found <a href="https://fis.vse.cz/english/current-students/study-issues/masters-thesis/">here</a>
 
   vse/utter_transport:
-        - text: Are you wondering about how to get around Prague safely and cheaply? Get the lítačka! Video on how to use the Prague public transport system <a href="https://fis.vse.cz/english/current-students/study-in-the-cz/litacka/">here</a>
+  - text: Are you wondering about how to get around Prague safely and cheaply? Get the lítačka! Video on how to use the Prague public transport system <a href="https://fis.vse.cz/english/current-students/study-in-the-cz/litacka/">here</a>
 
   vse/utter_id_card:
-        - text: Your university ID card is the key to everything! You will need it to prove your identity, enter the buildings, pay at the canteen or get various discounts. Get it made as soon as possible! More information <a href="https://ci.vse.cz/english/online-ordering-vse-id-card/">here</a>
+  - text: Your university ID card is the key to everything! You will need it to prove your identity, enter the buildings, pay at the canteen or get various discounts. Get it made as soon as possible! More information <a href="https://ci.vse.cz/english/online-ordering-vse-id-card/">here</a>
 
   vse/utter_partner_unis:
-        - text: Would you like to see a full list of our partner universities for studying abroad? Check them out <a href="https://vse.sharepoint.com/sites/ozs/brozura/SitePages/DomovskaStranka.aspx">here</a>
+  - text: Would you like to see a full list of our partner universities for studying abroad? Check them out <a href="https://vse.sharepoint.com/sites/ozs/brozura/SitePages/DomovskaStranka.aspx">here</a>
 
   vse/utter_exchange:
-        - text: More information on Erasmus and studying abroad can be found <a href="https://fis.vse.cz/english/current-students/study-issues/study-abroad-period/>here</a> or on the webpage of <a href="https://ozs.vse.cz/english/">VŠE International office</a>
+  - text: More information on Erasmus and studying abroad can be found <a href="https://fis.vse.cz/english/current-students/study-issues/study-abroad-period/>here</a> or on the webpage of <a href="https://ozs.vse.cz/english/">VŠE International office</a>
 
   vse/utter_internship:
-        - text: More information about internships for EDA-MOS students can be found <a href="https://fis.vse.cz/english/current-students/study-issues/internships-eda-mos/">here</a>
+  - text: More information about internships for EDA-MOS students can be found <a href="https://fis.vse.cz/english/current-students/study-issues/internships-eda-mos/">here</a>
 
   vse/utter_sport_courses:
-        - text: Would you like to get some movement? Wohooo! You've come to the right place! Information about sport courses offered at VŠE is right <a href="https://fis.vse.cz/english/current-students/study-issues/sport-courses/">here</a>
+  - text: Would you like to get some movement? Wohooo! You've come to the right place! Information about sport courses offered at VŠE is right <a href="https://fis.vse.cz/english/current-students/study-issues/sport-courses/">here</a>
 
   vse/utter_arrival:
-        - text: Have you just arrived to the Czech Republic? Follow the instructions <a href="https://fis.vse.cz/english/current-students/study-in-the-cz/after-arrival-obligations/">here</a>
+  - text: Have you just arrived to the Czech Republic? Follow the instructions <a href="https://fis.vse.cz/english/current-students/study-in-the-cz/after-arrival-obligations/">here</a>
 
   vse/utter_visa:
-        - text: How to get a visa to study in the Czech Republic? Follow the instructions <a href="https://fis.vse.cz/english/current-students/study-in-the-cz/visa/">here</a>
+  - text: How to get a visa to study in the Czech Republic? Follow the instructions <a href="https://fis.vse.cz/english/current-students/study-in-the-cz/visa/">here</a>
 
   vse/utter_insurance:
-        - text: Information about health insurance in the Czech Republic can be found <a href="https://admissions.vse.cz/prospective-students/before-you-apply/health-insurance/">here</a>
+  - text: Information about health insurance in the Czech Republic can be found <a href="https://admissions.vse.cz/prospective-students/before-you-apply/health-insurance/">here</a>
 
   vse/utter_housing:
-        - text: Where to stay during your time studying at VŠE? Check the student dorms <a href="https://fis.vse.cz/english/current-students/vse-facilities/housing/">here</a>
+  - text: Where to stay during your time studying at VŠE? Check the student dorms <a href="https://fis.vse.cz/english/current-students/vse-facilities/housing/">here</a>
 
   vse/utter_canteens:
-        - text: You can eat delicious lunches and even dinners at CŠE canteens every day! More info <a href="https://fis.vse.cz/english/current-students/vse-facilities/canteen/">here</a>
+  - text: You can eat delicious lunches and even dinners at CŠE canteens every day! More info <a href="https://fis.vse.cz/english/current-students/vse-facilities/canteen/">here</a>
 
   vse/utter_covid:
-        - text: Up-to-date info on Covid-19 restrictions and recommendations can be found <a href="https://admissions.vse.cz/covid-19-information-updates/">here</a>
+  - text: Up-to-date info on Covid-19 restrictions and recommendations can be found <a href="https://admissions.vse.cz/covid-19-information-updates/">here</a>
 
   vse/utter_counselling:
-        - text: Do you need help? The consultancy provided by qualified psychologists is available <a href="https://ac.vse.cz/english/our-services/psychological-counselling/for-foreign-students/opening-times/">here</a>
+  - text: Do you need help? The consultancy provided by qualified psychologists is available <a href="https://ac.vse.cz/english/our-services/psychological-counselling/for-foreign-students/opening-times/">here</a>
 
   vse/utter_emergency:
-        - text: "Primary emergency phone number in Czechia is 112. If you need firefighters, call 150, if you need an ambulance, call 155 and if you need police, call 158. More information on emergency services <a href="https://fis.vse.cz/english/current-students/need-help/emergency-services/">here</a>
+  - text: Primary emergency phone number in Czechia is 112. If you need firefighters, call 150, if you need an ambulance, call 155 and if you need police, call 158. More information on emergency services <a href="https://fis.vse.cz/english/current-students/need-help/emergency-services/">here</a>
 
   vse/utter_map:
-        - text: "Are you lost on campus? See a map <a href="https://fis.vse.cz/english/contacts/campus-map/">here</a>
+  - text: Are you lost on campus? See a map <a href="https://fis.vse.cz/english/contacts/campus-map/">here</a>
 
   vse/utter_joke:
-        - text: "Did you hear about the monkeys who shared an Amazon account? They were Prime mates."
+  - text: "Did you hear about the monkeys who shared an Amazon account? They were Prime mates."
 
 # Small Talk
   chitchat/utter_smalltalk_agent_acquaintance:
