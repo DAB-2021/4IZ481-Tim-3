@@ -18,7 +18,7 @@ $(document).ready(function(){
             data: JSON.stringify(body),
             url: "http://localhost:5005/webhooks/rest/webhook",
             success: function (results) {
-                updateChatText(results[0].text)
+                updateChatText(parseLink(results[0].text))
                 $(".chatbox__messages").scrollTop($(".chatbox__messages")[0].scrollHeight);
             }
         })
@@ -69,6 +69,11 @@ function updateChatText(message, name=true) {
 
     const chatmessage = document.querySelector('.chatbox__messages');
     chatmessage.innerHTML += html;
+}
+
+function parseLink(text) {
+    const regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/_\.]*(\?\S+)?)?)?)/ig
+    return str.replace(regex, "<a href='$1' target='_blank'>$1</a>")
 }
 
 const chatbox = new Chatbox();
