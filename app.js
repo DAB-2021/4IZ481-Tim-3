@@ -16,7 +16,7 @@ $(document).ready(function(){
             type: "POST",
             contentType: 'application/json',
             data: JSON.stringify(body),
-            url: "http://localhost:5005/webhooks/rest/webhook",
+            url: "http://82.202.65.8:5005/webhooks/rest/webhook",
             success: function (results) {
                 updateChatText(parseLink(results[0].text))
                 $(".chatbox__messages").scrollTop($(".chatbox__messages")[0].scrollHeight);
@@ -73,7 +73,7 @@ function updateChatText(message, name=true) {
 
 function parseLink(text) {
     const regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/_\.]*(\?\S+)?)?)?)/ig
-    return str.replace(regex, "<a href='$1' target='_blank'>$1</a>")
+    return text.replace(regex, "<a href='$1' target='_blank'>$1</a>")
 }
 
 const chatbox = new Chatbox();
