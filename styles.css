@@ -171,7 +171,8 @@ body {
 
 .messages__item {
     margin-top: 10px;
-    background: #E0E0E0;
+    background: #2CA6D1;
+    color: #EAECEF;
     padding: 8px 12px;
     max-width: 70%;
 }
@@ -187,8 +188,8 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    background: #2CA6D1;
-    color: #EAECEF;
+    background: #E0E0E0;
+    color: #393939;
 }
 
 /* FOOTER */
