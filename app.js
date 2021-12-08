@@ -72,7 +72,7 @@ function updateChatText(message, name=true) {
 }
 
 function parseLink(text) {
-    const regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\/_\.]*(\?\S+)?)?)?)/ig
+    const regex = /(https?:\/\/([-\w\.]+)+(:\d+)?(\/([\w\-\/_\.]*(\?\S+)?)?)?)/ig
     return text.replace(regex, "<a href='$1' target='_blank'>$1</a>")
 }
 
