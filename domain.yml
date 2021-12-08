@@ -151,7 +151,7 @@ responses:
 # Model
 
   utter_greet:
-  - text: "Hello, I’m virtual assistant Jirka from FIS!"
+  - text: "Hello, I’m virtual assistant Chad The Chadbot from FIS!"
 
   offer_help:
   - text: "How can I help you?"
@@ -172,25 +172,19 @@ responses:
     - text: "More information about bachelor studies admissions can be found here (in Czech): https://fis.vse.cz/bakalarske-studium/prijimaci-rizeni/"
 
   utter_bachelors_programs:
-    - text: "Bachelors Admissions LINK TODO 1"
+    - text: "More information about bachelor studies programs can be found here (in Czech): https://fis.vse.cz/bakalarske-studium/bakalarske-programy/"
 
   utter_master_programs:
-    - text: "Bachelors Admissions LINK TODO 2"
+    - text: "More information about master studies programs can be found here https://fis.vse.cz/english/about/about-the-programmes/"
 
   utter_phd_programs:
-    - text: "Bachelors Admissions LINK TODO 3"
-
-  utter_insis_register_course:
-    - text: "Bachelors Admissions LINK TODO 4"
-
-  utter_insis_submit_hw:
-    - text: "Bachelors Admissions LINK TODO 5"
+    - text: "More information about doctoral studies programs can be found here https://fis.vse.cz/english/about/phd/phd-study-programmes/"
 
   utter_ counselling:
-    - text: "Bachelors Admissions LINK TODO 6"
+    - text: "Do not be hesitant to ask about anything, more information about counselling can be found here https://ibb.vse.cz/facilities-and-services/vse-counselling-for-foreign-students/"
 
   utter_ emergency:
-    - text: "Bachelors Admissions LINK TODO 7"
+    - text: "It's good to be prepared! Emergency contacts can be found here https://fis.vse.cz/english/current-students/need-help/emergency-services/"
 
   utter_master_options:
       - text: "There are two master programmes available: Information Systems Management and Economic Data Analysis. Both are taught in English! You can find more information here: https://fis.vse.cz/english/about/about-the-programmes/"
